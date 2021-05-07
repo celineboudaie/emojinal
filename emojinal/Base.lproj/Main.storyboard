@@ -20,12 +20,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="146"/>
                                 <state key="normal" title="🙃"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Pt-TT-aaQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rKB-0Y-klD">
                                 <rect key="frame" x="70" y="186" width="275" height="288"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="146"/>
                                 <state key="normal" title="🥳"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4qc-EZ-78N"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.91268280555495029" green="1" blue="0.88146599402608539" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
